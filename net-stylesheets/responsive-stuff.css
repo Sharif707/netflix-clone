@@ -1,0 +1,59 @@
+@media only screen and (max-width: 767px) {
+   
+    .navbar img {
+        width: 100px;
+    }
+    .main-content h1 {
+        font-size: 3.2rem;
+
+    }
+    .main-content h3 {
+        font-size: 1.8rem;
+    }
+    .main-content p {
+        font-size: 1.7rem;
+    }
+    .email-section {
+        flex-direction: column;
+    }
+    .email-section input {
+        flex-basis: unset;
+    }
+    .features {
+        flex-direction: column;
+    }
+    .text-container {
+        padding: 0;
+        flex-basis: unset;
+    }
+    .text-container p {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text-container h1 {
+        font-size: 3rem;
+        line-height: 40px;
+        text-align: center;
+    }
+    .img-container {
+        flex-basis: 100%;
+    }
+    .membership-section p {
+        font-size: 1.7rem;
+        
+    }
+    .question-section > h1 {
+        font-size: 3rem;
+    }
+    .question-list h2 {
+        font-size: 2rem;
+    }
+    .footer-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:unset;
+    }
+  }
+  
+  

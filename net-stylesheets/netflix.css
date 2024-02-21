@@ -1,0 +1,270 @@
+/*google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*browser reset code*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #fff;
+  background: #000;
+  font-family: "Poppins", sans-serif;
+}
+.little-space::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background: rgb(255, 255, 255);
+  opacity: 0.2;
+}
+/*browser reset code ends here*/
+
+/*container section*/
+
+.container {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/*header section*/
+.header {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/netflix-hero.jpg");
+
+  position: relative;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.navbar img {
+  width: 150px;
+}
+.navbar .nav-btn {
+  padding: 7px 16px;
+  background-color: rgb(229, 9, 20);
+  color: #fff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-width: 1px;
+  border-bottom-left-radius: 3px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+/*main content*/
+.main-content {
+  text-align: center;
+  max-width: 980px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.main-content h1 {
+  font-size: 4.8rem;
+  font-weight: 900;
+
+  line-height: 80px;
+  
+}
+.main-content h3 {
+  font-size: 2.4rem;
+  margin: 8px 0;
+  font-weight: 400;
+}
+.main-content p {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.email-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.email-section input {
+  padding: 12px 24px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  background: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  border-radius: 4px;
+  flex-basis: 380px;
+}
+.email-section input:hover {
+  border: 2px solid white;
+}
+.email-section button {
+  padding: 12px 24px;
+  font-size: 2.4rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgb(229, 9, 20);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: auto;
+  min-width: 220px;
+}
+
+/*features section*/
+.features {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-container {
+  padding: 0 12px;
+  flex-basis: 50%;
+}
+.text-container h1 {
+  font-size: 4.85rem;
+  line-height: 70px;
+}
+.text-container p {
+  font-size: 2.4rem;
+  margin-top: 16px;
+}
+.img-container {
+  flex-basis: 50%;
+}
+
+/* Question section */
+.question-section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.question-section > h1 {
+  font-size: 4.8rem;
+  text-align: center;
+}
+.asked-questions {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+}
+.question-list {
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: 2s;
+}
+.question-list > h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  background: rgb(45, 45, 45);
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.question-list > h2 > button {
+  font-size: 2.4rem;
+  background: transparent;
+  color: white;
+}
+.question-list > h2 > button > i {
+  font-size: 3.6rem;
+}
+
+.hidden-part {
+  padding: 24px;
+  font-size: 2.4rem;
+  border-top: 0.5px solid black;
+  background: rgb(45, 45, 45);
+  display: none;
+}
+.hidden-para-2 {
+  margin-top: 20px;
+}
+
+/*-----------membership section-------*/
+.membership-section {
+  text-align: center;
+}
+.membership-section p {
+  font-size: 2.5rem;
+  line-height: 2.5;
+}
+
+/*footer section*/
+.footer {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  font-size: 1.6rem;
+}
+.footer > h4 {
+  margin-bottom: 12px;
+}
+.footer ul > li {
+  margin-top: 10px;
+}
+.language-btnn {
+  padding: 6px 36px;
+
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  border-radius: 4px;
+  align-items: center;
+  margin-top: 20px;
+color: white;
+  background: rgba(22, 22, 22, 0.7);
+}
+.language-btnn p {
+  font-size: 20px;
+}
+.language-btnn i {
+  margin-left: 10px;
+  padding-top: 2px;
+}
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+
+
+
